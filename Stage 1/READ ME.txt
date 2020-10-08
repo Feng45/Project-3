@@ -1,0 +1,4 @@
+This is a replication of SincNet result using TIMIT.
+I ended the program at epoch 368, which is 8 more than the example given.
+The whole process took around 28 hours.
+The result is in the res.res file. 
