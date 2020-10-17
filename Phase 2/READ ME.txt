@@ -1,0 +1,10 @@
+For phase 2 of the project 3, the aim is to train SincNet with my own data.
+I created my own set of data using Audacity with mono recording channel.
+The audio data consist of 10 sets utterance of alphabet from a to z produced by myself.
+7 set of the data was used for training and 3 set of data was used for testing.
+The data_lists were modified according to file names and grouped properly.
+A new .npy file was created with each audio file labeled correspondingly.
+The system was able to run successfully. While the error rate is high with fluctuation, it shows overall decrease, and loss_tr was decreasing consistantly overtime. Therefore the system was trained with my own data successfully.
+
+(Since I am using data I created myself, the number of sets needs to be much larger and quality of the audio probably needs to be better for accurate training. However, online dataset are huge and audio files are mostly very long which makes it time-consuming to run on my own computer and makes it hard for me to debug and figure out what is wrong with my files, as I have never worked with machine learning algorism before.
+As a result, I made my own dataset to train the system. While not perfect, the system was able to run quickly with fast feedback.)
