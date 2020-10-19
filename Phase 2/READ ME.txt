@@ -1,5 +1,5 @@
 For phase 2 of the project 3, the aim is to train SincNet with my own data.
-I created my own set of data using Audacity with mono recording channel.
+I created my own set of data using Audacity with mono recording channel, since our project uses a pretrained system, so it is not neccessary for me to train SincNet use large data set.
 The audio data consist of 10 sets utterance of alphabet from a to z produced by myself.
 7 set of the data was used for training and 3 set of data was used for testing.
 The data_lists were modified according to file names and grouped properly.
